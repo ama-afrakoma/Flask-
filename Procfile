@@ -1,2 +1,2 @@
-web: python myapp.py
+web: python path.py
 
