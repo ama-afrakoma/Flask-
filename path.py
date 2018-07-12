@@ -8,6 +8,8 @@ import os
 #import json
 #import pyowm		methods=['GET']
 
+app = Flask(__name__)
+
 @app.route('/')
 def index():
   return render_template('index.html')
